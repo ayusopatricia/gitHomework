@@ -1,14 +1,19 @@
-<?php 
+<?php
+
+namespace Hello\World;
 
 class HelloWorld
 {
-    public function __construct()
+
+    private $nombre;
+
+    public function __construct($nombre)
     {
-        echo $this->say('Hello world');
+        $this->nombre = $nombre;
     }
 
-    public function say($word)
+    public function say()
     {
-        return $word;
+        echo $this->nombre;
     }
 }
