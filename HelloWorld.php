@@ -14,6 +14,12 @@ class HelloWorld
 
     public function say()
     {
-        echo $this->nombre;
+        echo "Hola mundo<br>";
+		echo $this->getNombre();
     }
+	
+	public function getNombre()
+	{
+		return $this->nombre;
+	}
 }
