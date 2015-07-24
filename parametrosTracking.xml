@@ -1,0 +1,40 @@
+<!-- Los parametros que recibe el servicio de notificacion, es lo primero que tenia a mano -->
+<xsd:complexType name="PrizeRequest">
+<xsd:all>
+<xsd:element name="idInLoyalty" type="xsd:string" nillable="true" />
+<xsd:element name="redeemedDate" type="xsd:dateTime" nillable="true" />
+<xsd:element name="period" type="xsd:string" nillable="true" />
+<xsd:element name="controlNumber" type="xsd:string" nillable="true" />
+<xsd:element name="prizeIdInCentral" type="xsd:int" nillable="true" />
+<xsd:element name="prizeName" type="xsd:string" nillable="true" />
+<xsd:element name="prizeType" type="xsd:string" nillable="true" />
+<xsd:element name="prizeLanguageIdInLoyalty" type="xsd:string" nillable="true" />
+<xsd:element name="prizeLanguageCode" type="xsd:string" nillable="true" />
+<xsd:element name="catalogIdInCentral" type="xsd:int" nillable="true" />
+<xsd:element name="catalogName" type="xsd:string" nillable="true" />
+<xsd:element name="points" type="xsd:int" nillable="true" />
+<xsd:element name="prizeRequestPointsBreakdown" type="xsd:string" nillable="true" />
+<xsd:element name="prizeCost" type="xsd:string" nillable="true" />
+<xsd:element name="prizePointsToCostRate" type="xsd:string" nillable="true" />
+<xsd:element name="categoryIdInCentral" type="xsd:int" nillable="true" />
+<xsd:element name="categoryName" type="xsd:string" nillable="true" />
+<xsd:element name="clientIdInLoyalty" type="xsd:int" />
+<xsd:element name="clientIdentityDocumentNumber" type="xsd:string" nillable="true" />
+<xsd:element name="clientName" type="xsd:string" nillable="true" />
+<xsd:element name="clientEmail" type="xsd:string" nillable="true" />
+<xsd:element name="clientShippingAddress" type="xsd:string" nillable="true" />
+<xsd:element name="countryCode" type="xsd:string" nillable="true" />
+<xsd:element name="countryName" type="xsd:string" nillable="true" />
+<xsd:element name="stateName" type="xsd:string" nillable="true" />
+<xsd:element name="stateCode" type="xsd:string" nillable="true" />
+<xsd:element name="cityName" type="xsd:string" nillable="true" />
+<xsd:element name="postalCode" type="xsd:string" nillable="true" />
+<xsd:element name="clientPhone" type="xsd:string" nillable="true" />
+<xsd:element name="companyIdInLoyalty" type="xsd:int" nillable="true" />
+<xsd:element name="companyName" type="xsd:string" nillable="true" />
+<xsd:element name="companyOrgId" type="xsd:string" nillable="true" />
+<xsd:element name="companyTaxId" type="xsd:string" nillable="true" />
+<xsd:element name="companyType" type="xsd:string" nillable="true" />
+<xsd:element name="requestState" type="xsd:string" />
+</xsd:all>
+</xsd:complexType>
