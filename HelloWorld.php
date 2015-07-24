@@ -2,6 +2,11 @@
 
 namespace Hello\World;
 
+/**
+*
+* Comment 
+*
+*/
 class HelloWorld
 {
 
