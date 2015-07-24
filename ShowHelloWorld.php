@@ -9,7 +9,7 @@ class ShowHelloWorld
     private $nombre;
 
     public function __construct($nombre)
-    {
+    {	
         $this->setNombre($nombre);
         $this->ShowMyName();
     }
@@ -29,5 +29,10 @@ class ShowHelloWorld
     {
         $objHelloWorld = new HelloWorld($this->getNombre());
         $objHelloWorld->say();
+    }
+	
+	public function epale()
+    {
+        echo "todo fino por aquí";
     }
 }
